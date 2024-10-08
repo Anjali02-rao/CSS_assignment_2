@@ -48,6 +48,22 @@
     animation-direction: alternate;
     cursor: pointer;
   }
+
+  @keyframes slide {
+    0% {
+      left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+  }
+
   
 .card {
     background-color: rgb(36, 214, 113);
